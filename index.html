@@ -1,38 +1,63 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
+
 <title>Rahaf 161</title>
 <head>
 <link rel="stylesheet"href="mystyle.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body style=" background-color:wheat";>
 
-<h1  > 
-Rahaf Ayman Taha Tbaileh
+<body style=" background-color:MistyRose";>
+
+<button type="button" onclick="window.print()">Print Rahaf’s Resume.</button>
+<h1 onclick="myfunction()"> Rahaf Ayman Taha Tbaileh
 </h1>
 <style>
 h2{
 	font-size:1.6vw;
   }
- p,p1{ font-size:1.4vw;}
+ p,p1{
+ font-size:1.4vw;
+ }
+ 
+button {
+position: absolute;
+top: 0;
+left: 0;
 }
 </style>
-<h2> <br><span style=" border :2px solid DimGray;"> EDUCATION:</span></h2>
+
+<div id="zk">
+<h2 > <br><span style=" border :2px solid DimGray;"> EDUCATION:</span></h2>
 <h2 > 
-<p1 > <b> • Second year Computer science student     <br>  at <a href="https://www.najah.edu/ar/"><ins>An-Najah National University<b></ins>.<br></a>
- • Student from <ins>Kamal Jumblatt</ins> school.</p1>
-<hr></h2>
+<p1 > <b> • Second year Computer science student     <br>  at <ins>An-Najah National University<b></ins>.<br>
+ • Student from <ins>Kamal Jumblatt</ins> school.<br><br></p1>
+</h2></div>
+
+<div  onmouseover="changecolor()" onmouseout="resitcolor()">
 <h2 ><span style=" border :2px solid DimGray;"> WORK EXPERIENCES:<span> </h2>
-<p> <b> • Because i am in my second year, I can program  <br>and write many code, also I know how to create <br> web pages through what I learn in this course. </p>
-<hr>
+<p> <b> • Because i am in my second year, I can program  <br>and write many code, also I know how to create <br> web pages through what I learn in this course. <br><br></p>
+</div>
+
 <h2> <span style=" border :2px solid DimGray;"> HOBBIES:</span> </h2> 
-<p > • Football.  <br>• Reading.<br> • Writing. <br>• Cooking.<br> </p>
-<hr>
+<p > • Football.  <br>• Reading.<br> • Writing. <br>• Cooking.<br><br> </p>
+
 <h2 ><span style=" border :2px solid DimGray;">  LINK:</span> </h2>
-<p>  • <a href="https://www.facebook.com/profile.php?id=100007737136926">Facebook</a><hr></p> 
+<p>  • <a href="https://www.facebook.com/profile.php?id=100007737136926">Facebook</a><br><br></p> 
 <h2 > <span style=" border :2px solid DimGray;"> PHOTO: </span></h2>
  <p ><img src="photo_cat.jpg" alt="photo cat" style="max-width:100%;height:auto;"> 
 </p>
+
+<script> 
+function myfunction()
+{
+alert("Welcome to Rahaf Tbaileh site, please let me know if you have any questions");
+}
+function resitcolor()
+{document.getElementById("zk").style.color="black";}
+function changecolor()
+{document.getElementById("zk").style.color="green";}
+</script>
 </body>
 
 </html>
