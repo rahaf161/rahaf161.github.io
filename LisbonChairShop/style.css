@@ -86,7 +86,7 @@ header {
 }
 
 .header-text-box {
-  align-self: center;
+  flex:1;
 }
 
 h1 {
@@ -105,6 +105,8 @@ h1 {
 
 img {
   width: 100%;
+  flex:1;
+ height:auto;
 }
 
 /* FEATURES */
