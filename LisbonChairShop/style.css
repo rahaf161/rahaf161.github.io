@@ -84,7 +84,9 @@ header {
   margin-top: 48px;
   margin-bottom: 100px;
 }
-
+header img{ flex:1;
+           max-width: 45%
+ height:auto;}
 .header-text-box {
   flex:1;
 }
