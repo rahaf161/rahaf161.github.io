@@ -46,11 +46,7 @@ h2 {
   gap:2rem;
  flex-wrap: wrap;
 }
-.flex-3-cols > div,
-.flex-3-cols > figure {
-  flex: 1 1 30%; 
-  box-sizing: border-box;
-}
+
 .btn:link,
 .btn:visited {
   border: 1px solid;
