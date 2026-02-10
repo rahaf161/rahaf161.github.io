@@ -41,13 +41,13 @@ h2 {
   margin-bottom: 30px;
 }
 
-.grid-3-cols {
+.flex-3-cols {
   display: flex;
   gap:2rem;
  flex-wrap: wrap;
 }
-.grid-3-cols > div,
-.grid-3-cols > figure {
+.flex-3-cols > div,
+.flex-3-cols > figure {
   flex: 1 1 30%; 
   box-sizing: border-box;
 }
