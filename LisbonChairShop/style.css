@@ -40,12 +40,19 @@ h2 {
   letter-spacing: -1px;
   margin-bottom: 30px;
 }
+.flex {
+  display: flex;
+}
 
+.flex-row {
+  flex-direction: row;
+}
 .justify-center {
   justify-content: center;
 }
-.flex {
-  display: flex;
+
+.align-items-center {
+  align-items: center;
 }
 .btn:link,
 .btn:visited {
