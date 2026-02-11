@@ -112,7 +112,11 @@ h1 {
 .header-text {
  flex:1;
 }
-
+.hero-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* FEATURES */
 
 .features-icon {
