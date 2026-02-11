@@ -46,6 +46,7 @@ h2 {
 
 .flex-row {
   flex-direction: row;
+  gap:5rem;
 }
 .justify-center {
   justify-content: center;
