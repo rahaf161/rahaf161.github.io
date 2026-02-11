@@ -76,9 +76,7 @@ h2 {
 /* ------------------------ */
 
 /* HEADER */
-header {
-  display: flex;
-  
+header { 
   margin-top: 48px;
   margin-bottom: 100px;
 }
