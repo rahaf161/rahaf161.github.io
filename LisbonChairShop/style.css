@@ -24,9 +24,12 @@ body {
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
+  width: 100%;
+  padding: 0 20px;
   margin: 0 auto;
 }
+
 
 header,
 section {
@@ -218,4 +221,34 @@ footer {
   font-size: 14px;
 
   color: #495057;
+}
+/* ------------------------ */
+/* RESPONSIVE DESIGN - AFTER */
+/* ------------------------ */
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-text-box,
+  .header-img {
+    width: 100%;
+    flex: none;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  .flex-row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
