@@ -41,10 +41,11 @@ h2 {
   margin-bottom: 30px;
 }
 
-.grid-3-cols {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 80px;
+.justify-center {
+  justify-content: center;
+}
+.flex {
+  display: flex;
 }
 .btn:link,
 .btn:visited {
@@ -76,9 +77,8 @@ h2 {
 
 /* HEADER */
 header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 80px;
+  display: flex;
+  
   margin-top: 48px;
   margin-bottom: 100px;
 }
