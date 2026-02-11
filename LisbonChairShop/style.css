@@ -34,6 +34,7 @@ section {
 }
 img {
   border-radius: 20px;
+ width: 100%;
 }
 h2 {
   font-size: 24px;
@@ -107,8 +108,9 @@ h1 {
   line-height: 1.4;
 }
 
-img {
-  width: 100%;
+.header-img,
+.header-text {
+ flex:1;
 }
 
 /* FEATURES */
@@ -158,6 +160,7 @@ img {
 }
 .testimonial-section img {
   border-radius: 20px;
+ width:250px;
 }
 
 /* CHAIRS */
